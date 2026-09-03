@@ -20,50 +20,6 @@
         "version": "2.6.2",
         "cells": [
           {
-            "shape": "trust-boundary-curve",
-            "width": 200,
-            "height": 100,
-            "zIndex": -1,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Boundary",
-              "name": "Trust Boundary",
-              "description": "",
-              "isTrustBoundary": true,
-              "hasOpenThreats": false,
-              "crossingFlows": [],
-              "containedElements": []
-            },
-            "labels": [
-              "Trust Boundary"
-            ],
-            "id": "47d6c07f-fb94-4490-a0c3-828747a2961c",
-            "source": {
-              "x": 160,
-              "y": 50
-            },
-            "target": {
-              "x": 260,
-              "y": 150
-            },
-            "vertices": [
-              {
-                "x": 210,
-                "y": 110
-              }
-            ],
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead"
-              ],
-              "name": null
-            }
-          },
-          {
             "position": {
               "x": 10,
               "y": 190
@@ -629,6 +585,40 @@
               {
                 "x": 510,
                 "y": 290
+              }
+            ]
+          },
+          {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": 11,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "Trust Boundary",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false,
+              "crossingFlows": [],
+              "containedElements": []
+            },
+            "labels": [
+              "Trust Boundary"
+            ],
+            "id": "47d6c07f-fb94-4490-a0c3-828747a2961c",
+            "source": {
+              "x": 160,
+              "y": 50
+            },
+            "target": {
+              "x": 220,
+              "y": 420
+            },
+            "vertices": [
+              {
+                "x": 210,
+                "y": 110
               }
             ]
           }
