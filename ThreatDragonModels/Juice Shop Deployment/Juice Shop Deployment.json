@@ -172,6 +172,13 @@
               "hasOpenThreats": false,
               "providesAuthentication": false,
               "threats": []
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
             }
           },
           {
@@ -671,7 +678,7 @@
             },
             "target": {
               "cell": "b6a1ab9a-8330-4bba-b4b9-45e9d75e9c15",
-              "port": "78a9d9f3-120c-4f72-82d6-d3f7f5209506"
+              "port": "e0f67837-8d95-4ee9-8638-f26c8d4cc56c"
             },
             "vertices": [
               {
